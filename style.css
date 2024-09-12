@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-form input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #search-form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #current-weather, #forecast, #search-history {
+    margin-top: 20px;
+  }
+  
+  #forecast-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forecast-item {
+    text-align: center;
+  }
